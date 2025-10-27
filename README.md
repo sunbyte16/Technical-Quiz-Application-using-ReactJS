@@ -355,6 +355,11 @@ _"The only way to learn a new programming language is by writing programs in it.
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sunbyte16) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sunil-kumar-bb88bb31a/) [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=flat-square&logo=web&logoColor=white)](https://lively-dodol-cc397c.netlify.app)
 
+<<<<<<< HEAD
 </div>
 #   T e c h n i c a l - Q u i z - A p p l i c a t i o n - u s i n g - R e a c t J S  
  
+=======
+</div>#
+
+>>>>>>> 8530a600825fa74e410d45c688340b878b507c24
