@@ -30,6 +30,7 @@
 <td width="50%">
 
 ### 🎯 Core Functionality
+
 - � **5t5+ Technical Questions** covering multiple programming languages
 - ⚡ **Real-time Scoring** with instant feedback
 - 📊 **Progress Tracking** with visual indicators
@@ -40,6 +41,7 @@
 <td width="50%">
 
 ### 🎨 User Experience
+
 - 📱 **Responsive Design** using Tailwind CSS
 - ✨ **Smooth Animations** and transitions
 - 🎨 **Visual Feedback** with color-coded answers
@@ -52,13 +54,13 @@
 
 ### 🚀 Advanced Features
 
-| Feature | Description | Status |
-|---------|-------------|--------|
-| 🏆 **High Score Tracking** | localStorage-based score persistence | ✅ Active |
-| 📊 **Performance Feedback** | Smart feedback based on score percentage | ✅ Active |
-| 📚 **Category Breakdown** | Performance analysis by programming topic | ✅ Active |
-| 🔄 **Quiz Restart** | Reshuffled questions for multiple attempts | ✅ Active |
-| ⏭️ **Manual Navigation** | User-controlled question progression | ✅ Active |
+| Feature                     | Description                                | Status    |
+| --------------------------- | ------------------------------------------ | --------- |
+| 🏆 **High Score Tracking**  | localStorage-based score persistence       | ✅ Active |
+| 📊 **Performance Feedback** | Smart feedback based on score percentage   | ✅ Active |
+| 📚 **Category Breakdown**   | Performance analysis by programming topic  | ✅ Active |
+| 🔄 **Quiz Restart**         | Reshuffled questions for multiple attempts | ✅ Active |
+| ⏭️ **Manual Navigation**    | User-controlled question progression       | ✅ Active |
 
 ---
 
@@ -136,7 +138,7 @@ graph TD
     B --> C[❓ Question.js]
     B --> D[📊 Result.js]
     B --> E[📚 questions.js]
-    
+
     style A fill:#e1f5fe
     style B fill:#f3e5f5
     style C fill:#e8f5e8
@@ -146,11 +148,11 @@ graph TD
 
 </div>
 
-| Component | Responsibility | Key Features |
-|-----------|---------------|--------------|
-| 🧠 **QuizApp** | State management & flow control | Timer, scoring, navigation |
-| ❓ **Question** | Question display & interaction | Visual feedback, answer validation |
-| 📊 **Result** | Performance analysis & review | Category breakdown, detailed results |
+| Component       | Responsibility                  | Key Features                         |
+| --------------- | ------------------------------- | ------------------------------------ |
+| 🧠 **QuizApp**  | State management & flow control | Timer, scoring, navigation           |
+| ❓ **Question** | Question display & interaction  | Visual feedback, answer validation   |
+| 📊 **Result**   | Performance analysis & review   | Category breakdown, detailed results |
 
 ---
 
@@ -162,19 +164,19 @@ graph TD
 
 </div>
 
-| Category | Questions | Difficulty | Topics Covered |
-|----------|-----------|------------|----------------|
-| 🔤 **C Programming** | 5 | ⭐⭐⭐ | Pointers, Memory, Syntax |
-| ➕ **C++** | 5 | ⭐⭐⭐⭐ | OOP, Inheritance, STL |
-| ☕ **Java** | 5 | ⭐⭐⭐ | JVM, Collections, OOP |
-| 🐍 **Python** | 5 | ⭐⭐ | Syntax, Data Structures |
-| 🌐 **HTML** | 5 | ⭐⭐ | Tags, Attributes, Structure |
-| 🎨 **CSS** | 5 | ⭐⭐⭐ | Selectors, Properties, Layout |
-| 📜 **JavaScript** | 5 | ⭐⭐⭐⭐ | ES6+, DOM, Functions |
-| ⚛️ **ReactJS** | 5 | ⭐⭐⭐⭐ | Hooks, Components, JSX |
-| 🗄️ **DBMS** | 5 | ⭐⭐⭐ | SQL, Normalization, Keys |
-| 🏗️ **OOPs** | 5 | ⭐⭐⭐ | Encapsulation, Inheritance |
-| 📊 **Data Structures** | 5 | ⭐⭐⭐⭐ | Arrays, Trees, Algorithms |
+| Category               | Questions | Difficulty | Topics Covered                |
+| ---------------------- | --------- | ---------- | ----------------------------- |
+| 🔤 **C Programming**   | 5         | ⭐⭐⭐     | Pointers, Memory, Syntax      |
+| ➕ **C++**             | 5         | ⭐⭐⭐⭐   | OOP, Inheritance, STL         |
+| ☕ **Java**            | 5         | ⭐⭐⭐     | JVM, Collections, OOP         |
+| 🐍 **Python**          | 5         | ⭐⭐       | Syntax, Data Structures       |
+| 🌐 **HTML**            | 5         | ⭐⭐       | Tags, Attributes, Structure   |
+| 🎨 **CSS**             | 5         | ⭐⭐⭐     | Selectors, Properties, Layout |
+| 📜 **JavaScript**      | 5         | ⭐⭐⭐⭐   | ES6+, DOM, Functions          |
+| ⚛️ **ReactJS**         | 5         | ⭐⭐⭐⭐   | Hooks, Components, JSX        |
+| 🗄️ **DBMS**            | 5         | ⭐⭐⭐     | SQL, Normalization, Keys      |
+| 🏗️ **OOPs**            | 5         | ⭐⭐⭐     | Encapsulation, Inheritance    |
+| 📊 **Data Structures** | 5         | ⭐⭐⭐⭐   | Arrays, Trees, Algorithms     |
 
 ---
 
@@ -182,14 +184,14 @@ graph TD
 
 ### 🌈 Color Palette
 
-| Purpose | Color | Hex Code |
-|---------|-------|----------|
-| 🔵 Primary | Blue | `#3B82F6` |
-| 🟣 Secondary | Purple | `#8B5CF6` |
-| 🟢 Success | Green | `#10B981` |
-| 🔴 Error | Red | `#EF4444` |
-| ⚪ Background | White | `#FFFFFF` |
-| 🌫️ Gray | Gray | `#6B7280` |
+| Purpose       | Color  | Hex Code  |
+| ------------- | ------ | --------- |
+| 🔵 Primary    | Blue   | `#3B82F6` |
+| 🟣 Secondary  | Purple | `#8B5CF6` |
+| 🟢 Success    | Green  | `#10B981` |
+| 🔴 Error      | Red    | `#EF4444` |
+| ⚪ Background | White  | `#FFFFFF` |
+| 🌫️ Gray       | Gray   | `#6B7280` |
 
 ### 📱 Responsive Breakpoints
 
@@ -268,12 +270,12 @@ const getFeedbackMessage = () => {
 
 ### ⚡ Application Performance
 
-| Metric | Score | Status |
-|--------|-------|--------|
-| 🚀 **Performance** | 95/100 | ✅ Excellent |
-| ♿ **Accessibility** | 100/100 | ✅ Perfect |
-| 🔍 **SEO** | 90/100 | ✅ Great |
-| 💡 **Best Practices** | 100/100 | ✅ Perfect |
+| Metric                | Score   | Status       |
+| --------------------- | ------- | ------------ |
+| 🚀 **Performance**    | 95/100  | ✅ Excellent |
+| ♿ **Accessibility**  | 100/100 | ✅ Perfect   |
+| 🔍 **SEO**            | 90/100  | ✅ Great     |
+| 💡 **Best Practices** | 100/100 | ✅ Perfect   |
 
 </div>
 
@@ -345,7 +347,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 **Happy Learning! 🎓 Keep Coding! 💻**
 
-*"The only way to learn a new programming language is by writing programs in it."* - Dennis Ritchie
+_"The only way to learn a new programming language is by writing programs in it."_ - Dennis Ritchie
 
 ---
 
@@ -353,6 +355,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sunbyte16) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sunil-kumar-bb88bb31a/) [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=flat-square&logo=web&logoColor=white)](https://lively-dodol-cc397c.netlify.app)
 
-</div>#   T e c h n i c a l - Q u i z - A p p l i c a t i o n - u s i n g - R e a c t J S  
- #   T e c h n i c a l - Q u i z - A p p l i c a t i o n - u s i n g - R e a c t J S  
+</div>
+#   T e c h n i c a l - Q u i z - A p p l i c a t i o n - u s i n g - R e a c t J S  
  
